@@ -44,6 +44,7 @@ const buildQueryString = (newPage) => {
   return (
     <>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      {recipesItems.length === 0 && <A href={'/'}><div className="text-orange-500 font-bold text-xl">No dishes found</div></A>}
       {recipesItems.map((recipe) => (
         <A href={`/recipes/${recipe.id}`} key={recipe.id}>
           <div

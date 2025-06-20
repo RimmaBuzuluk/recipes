@@ -48,10 +48,10 @@ export default function () {
           onChange={(e) => setCuisine(e.target.value)}
           className="w-full border border-orange-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
         >
-          <option value="">Select Cuisine</option> {/* ← дефолт */}
-          <option>Asian</option>
-          <option>Italian</option>
-          <option>European</option>
+          <option value="">Select Cuisine</option>
+          <option value='Asian'>Asian</option>
+          <option value='Italian'>Italian</option>
+          <option value="European">European</option>
         </select>
       </div>
 

@@ -6,7 +6,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:prettier/recommended', // Додає Prettier як плагін
+    'plugin:prettier/recommended', 
   ],
   parserOptions: {
     ecmaVersion: 12,

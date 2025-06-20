@@ -37,7 +37,7 @@ export default async function ({ params }) {
               ))}
             </ul>
           </div>
-         
+
           {recipe.instructions && (
             <div>
               <h2 className="text-lg font-semibold mb-2 text-gray-800">Instructions</h2>

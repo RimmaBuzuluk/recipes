@@ -13,8 +13,6 @@
 
 🧩 Modular and reusable components
 
-
-
 🏗 Architecture
 Next.js App Router (uses /app directory for routing)
 
@@ -29,18 +27,18 @@ Tailwind CSS for styling
 ⚙️ Getting Started
 
 1 Clone repositor
-    git clone https://github.com/your-username/your-project.git
-    cd your-project
+git clone https://github.com/your-username/your-project.git
+cd your-project
 
 2 Install dependencies
-    npm install
+npm install
 
 3 Add enviroment variables
-    NEXT_PUBLIC_SPOONACULAR_API_KEY=your_api_key_here
+NEXT_PUBLIC_SPOONACULAR_API_KEY=your_api_key_here
 
 4 Run the development sarver
-    npm run dev
+npm run dev
 
 5 Build for production
-    npm run build
-    npm run start
+npm run build
+npm run start

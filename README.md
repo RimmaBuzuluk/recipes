@@ -1,3 +1,5 @@
+DEPLOY LINK (https://recipes-gy6q.vercel.app/)
+
 🚀 Features
 🔍 Search Recipes — by name, cuisine, or max prep time
 

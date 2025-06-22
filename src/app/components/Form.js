@@ -49,8 +49,8 @@ export default function () {
           className="w-full border border-orange-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
         >
           <option value="">Select Cuisine</option>
-          <option value='Asian'>Asian</option>
-          <option value='Italian'>Italian</option>
+          <option value="Asian">Asian</option>
+          <option value="Italian">Italian</option>
           <option value="European">European</option>
         </select>
       </div>
